@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1057569804875",
+    "firebase_url": "https://stop-gas.firebaseio.com",
+    "project_id": "stop-gas",
+    "storage_bucket": "stop-gas.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1057569804875:android:9ec3c496ae604a91fbb3ce",
+        "android_client_info": {
+          "package_name": "br.com.kualit.stopgas"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1057569804875-319ro910r5r7lid2ccrb12hl2kdvi0eh.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "br.com.kualit.stopgas",
+            "certificate_hash": "027db634952fa9ab2d618ad543ecdf1c7054b8e6"
+          }
+        },
+        {
+          "client_id": "1057569804875-g8oglsl8bjo671peibugb5iuetf6u3to.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCrmtwS1tLqMZtoy4OvPR7zt52midQQ63E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1057569804875-g8oglsl8bjo671peibugb5iuetf6u3to.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

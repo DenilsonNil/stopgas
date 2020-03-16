@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:title="Quem somos"
+            android:id="@+id/opt_menu_quemsomos"
+            android:icon="@drawable/ic_quem_somos" />
+
+        <item
+            android:title="Galeria"
+            android:id="@+id/opt_menu_galeria"
+            android:icon="@drawable/ic_galeria" />
+
+        <item
+            android:title="Localização"
+            android:id="@+id/opt_menu_localizacao"
+            android:icon="@drawable/ic_localizacao" />
+
+        <item
+            android:title="Contato"
+            android:id="@+id/opt_menu_contato"
+            android:icon="@drawable/ic_contato" />
+
+        <item
+            android:title="Sair"
+            android:id="@+id/opt_menu_sair"
+            android:icon="@drawable/ic_exit" />
+
+
+    </group>
+</menu>

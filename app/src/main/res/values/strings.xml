@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Stop Gás</string>
+    <string name="tit_login_google">LOGIN UTILIZANDO SUA CONTA GOOGLE</string>
+    <string name="tit_login_userpass">LOGIN UTILIZANDO USUÁRIO E SENHA</string>
+    <string name="tit_login_with_google">LOGIN COM GOOGLE</string>
+    <string name="tit_login_with_userpass">LOGIN COM E-MAIL E SENHA</string>
+    <string name="tit_cad_mailpass">CADASTRAR E-MAIL E SENHA</string>
+    <string name="type_your_mail">Digite seu e-mail</string>
+    <string name="type_your_pass">Digite sua senha</string>
+    <string name="repeat_your_pass">Repita a senha</string>
+    <string name="cadastrar">CADASTRAR</string>
+    <string name="btn_logar">ENTRAR</string>
+    <string name="txt_btn_proximo">PRÓXIMO</string>
+    <string name="complete_address">Endereço completo</string>
+    <string name="bairro">Bairro</string>
+    <string name="forgot_pass">Esqueci minha senha</string>
+    <string name="to_cad">Quero me cadastrar</string>
+    <string name="recuperar">Recuperar</string>
+    <string name="entrar">Entrar</string>
+    <string name="queroCadastrar">Quero me cadastrar</string>
+    <string name="email">email</string>
+    <string name="senha">senha</string>
+    <string name="open_drawer">Abrir</string>
+    <string name="close_drawer">Fechar</string>
+</resources>
