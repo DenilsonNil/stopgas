@@ -26,6 +26,8 @@ public class CadastroEmailSenhaActivity extends AppCompatActivity implements Vie
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.cadastro_mail_pass);
+        Util.animarTela(this);
+
 
         campoEmail = (AppCompatEditText) findViewById(R.id.cadMail);
         campoSenha = (AppCompatEditText) findViewById(R.id.cadSenha);

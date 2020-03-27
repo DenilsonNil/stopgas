@@ -22,4 +22,8 @@
     <string name="senha">senha</string>
     <string name="open_drawer">Abrir</string>
     <string name="close_drawer">Fechar</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="pressione">Pressione aqui e saiba mais</string>
+    <string name="text_address">Rua ZZZZZZZ ZZZZZZ ZZZ, 127A\nBairro: Coimbra, Marília / SP\nCEP: 00.000-011</string>
+    <string name="carrinho">Carrinho</string>
 </resources>

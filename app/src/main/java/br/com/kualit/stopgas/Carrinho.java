@@ -1,35 +1,23 @@
 package br.com.kualit.stopgas;
 
 import java.util.ArrayList;
+import java.util.Iterator;
 import java.util.List;
+
 public class Carrinho {
 
-    private List<Produto> listaDeProdutos;
+    public static List<Produto> listaDeProdutos = new ArrayList<>();
 
 
-    public Carrinho(List<Produto> listaDeProdutos) {
-        this.listaDeProdutos = listaDeProdutos;
-    }
+    public static Double getValorTotal() {
+        Double valorTotal = 0.0d;
 
-    public List<Produto> getListaDeProdutos() {
-        return listaDeProdutos;
-    }
+        Iterator<Produto> iterator = listaDeProdutos.iterator();
+        while (iterator.hasNext()) {
+            valorTotal += iterator.next().getPreco();
+        }
 
-    public void setListaDeProdutos(List<Produto> listaDeProdutos) {
-        this.listaDeProdutos = listaDeProdutos;
-    }
-
-    public int getQuantidade(){
-        return listaDeProdutos.size();
-    }
-    
-    public Double getValorTotal(){
-        Double valorTotal = 0.0;
-
-
-
-        
-        return null;
+        return valorTotal;
     }
 
 

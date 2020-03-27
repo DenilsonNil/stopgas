@@ -1,8 +1,11 @@
 package br.com.kualit.stopgas;
 
+import android.app.Activity;
 import android.content.Context;
 import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
+import android.transition.Fade;
+import android.transition.Slide;
 import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -23,6 +26,16 @@ public class Util {
         } else {
             return false;
         }
+    }
+
+    public static void animarTela(Activity activity){
+        Fade fade = new Fade();
+        fade.setDuration(1000);
+        activity.getWindow().setEnterTransition(fade);
+
+        Slide slide = new Slide();
+        slide.setDuration(1000);
+        activity.getWindow().setExitTransition(slide);
     }
 
 

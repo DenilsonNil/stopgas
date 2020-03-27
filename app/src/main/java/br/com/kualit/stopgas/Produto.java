@@ -1,16 +1,22 @@
 package br.com.kualit.stopgas;
 
 public class Produto {
-    private String nome;
+    private String descricao;
     private Double preco;
     private int imagem;
 
-    public String getNome() {
-        return nome;
+    public Produto(int imagem, String descricao, Double preco) {
+        this.descricao = descricao;
+        this.preco = preco;
+        this.imagem = imagem;
     }
 
-    public void setNome(String nome) {
-        this.nome = nome;
+    public String getDescricao() {
+        return descricao;
+    }
+
+    public void setDescricao(String descricao) {
+        this.descricao = descricao;
     }
 
     public Double getPreco() {

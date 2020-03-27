@@ -25,6 +25,7 @@ public class RecuperaSenhaActivity extends AppCompatActivity implements View.OnC
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         setContentView(R.layout.layout_recupera_senha);
+        Util.animarTela(this);
         super.onCreate(savedInstanceState);
         Button botaoRecuperarSenha;
         botaoRecuperarSenha = findViewById(R.id.btn_envia_email);

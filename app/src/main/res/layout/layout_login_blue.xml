@@ -5,6 +5,7 @@
     android:background="@drawable/back"
     android:gravity="center"
     android:orientation="vertical"
+    android:id="@+id/root_login"
     android:padding="20dp">
 
 
