@@ -32,43 +32,26 @@
         android:drawableLeft="@drawable/ic_lock"
         android:drawablePadding="10dp"
         android:hint="Senha"
+        android:layout_marginBottom="100dp"
         android:inputType="textPassword"
         android:padding="15dp"
         android:textColor="@color/white"
         android:textColorHighlight="@color/white"
         android:textColorHint="@color/white" />
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal">
 
-        <CheckBox
-            android:id="@+id/check_remember"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="10dp"
-            android:layout_marginTop="0dp"
-            android:layout_marginRight="10dp"
-            android:layout_marginBottom="10dp"
-            android:buttonTint="@color/white"
-            android:checked="true"
-            android:text="Lembrar Senha"
-            android:textColor="@color/white" />
-
-
-    </LinearLayout>
 
     <Button
         android:id="@+id/btn_logar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
         android:layout_marginLeft="10dp"
-        android:layout_marginTop="0dp"
         android:layout_marginRight="10dp"
         android:layout_marginBottom="10dp"
         android:background="@drawable/shapelogin"
         android:padding="15dp"
+        style="@style/Button_Theme"
         android:shadowColor="@android:color/transparent"
         android:text="@string/entrar" />
 

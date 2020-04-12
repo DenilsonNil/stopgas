@@ -1,4 +1,4 @@
-package br.com.kualit.stopgas;
+package br.com.kualit.stopgas.util;
 
 import android.app.Activity;
 import android.content.Context;
@@ -10,11 +10,14 @@ import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import br.com.kualit.stopgas.dialog.DialogProgress;
+
 import static android.content.Context.CONNECTIVITY_SERVICE;
 
 public class Util {
 
     private static DialogProgress dialog;
+
 
 
     public static boolean verificarInternet(Context context) {

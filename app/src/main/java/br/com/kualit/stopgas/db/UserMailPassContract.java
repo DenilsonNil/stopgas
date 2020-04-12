@@ -1,4 +1,4 @@
-package br.com.kualit.stopgas;
+package br.com.kualit.stopgas.db;
 
 public final class UserMailPassContract {
 

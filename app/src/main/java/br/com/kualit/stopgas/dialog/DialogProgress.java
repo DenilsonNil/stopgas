@@ -1,4 +1,4 @@
-package br.com.kualit.stopgas;
+package br.com.kualit.stopgas.dialog;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -8,11 +8,13 @@ import android.view.ViewGroup;
 import androidx.annotation.Nullable;
 import androidx.fragment.app.DialogFragment;
 
+import br.com.kualit.stopgas.R;
 
-public class DialogAddress extends DialogFragment {
+
+public class DialogProgress extends DialogFragment {
 
 
-    public DialogAddress(){
+    public DialogProgress(){
     }
 
 
@@ -30,7 +32,7 @@ public class DialogAddress extends DialogFragment {
          super.onCreateView(inflater, container, savedInstanceState);
 
 
-        View view  = inflater.inflate(R.layout.dialog_address, container);
+        View view  = inflater.inflate(R.layout.dialog_progress,container);
 
         setRetainInstance(true);
 
@@ -44,7 +46,7 @@ public class DialogAddress extends DialogFragment {
     public void onActivityCreated(Bundle savedInstanceState) {
         super.onActivityCreated(savedInstanceState);
 
-        setCancelable(true);
+        setCancelable(false);
     }
 
 

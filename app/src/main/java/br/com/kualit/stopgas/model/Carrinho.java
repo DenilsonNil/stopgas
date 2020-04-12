@@ -1,4 +1,4 @@
-package br.com.kualit.stopgas;
+package br.com.kualit.stopgas.model;
 
 import java.util.ArrayList;
 import java.util.Iterator;

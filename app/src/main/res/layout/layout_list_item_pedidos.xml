@@ -7,13 +7,11 @@
     android:elevation="8dp"
     app:cardCornerRadius="8dp">
 
-
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="match_parent"
         android:background="@color/blueItemBack"
         android:orientation="vertical">
-
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -22,54 +20,31 @@
             android:layout_marginBottom="15dp"
             android:background="@color/yelow" />
 
-
         <TextView
-            android:id="@+id/txt_desc"
+            android:id="@+id/txt_data_pedido"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="15dp"
-            android:text="Gás "
-            android:textColor="@color/signupColor"
-            android:textSize="20sp"/>
-
+            android:text="Descrição: "
+            android:textSize="20sp" />
 
         <TextView
-            android:id="@+id/txt_valor"
+            android:id="@+id/txt_valor_carrinho"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="15dp"
-            android:text="R$ 80,00: "
-
-            android:textColor="@color/signupColor"
+            android:layout_marginBottom="15dp"
+            android:text="Valor: "
             android:textSize="20sp"
             android:textStyle="bold" />
 
-
-        <ImageView
-            android:id="@+id/img_product"
-            android:layout_width="200dp"
-            android:layout_height="200dp"
-            android:layout_gravity="center"
-            android:layout_marginBottom="10dp"
-            android:src="@mipmap/ic_launcher_round" />
-
-
-        <Button
-            android:id="@+id/btn_add_car"
-            style="@style/Button_Theme"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_margin="15dp"
-            android:background="@drawable/shapelogin"
-            android:drawableRight="@drawable/ic_carrinho"
-            android:onClick="adicionarItemNoCarrinho"
-            android:text="Adicionar ao carrinho" />
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="34dp"
             android:layout_marginLeft="0dp"
             android:background="@color/yelow" />
-
     </LinearLayout>
+
+
 </androidx.cardview.widget.CardView>

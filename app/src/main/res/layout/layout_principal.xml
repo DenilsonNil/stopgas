@@ -5,7 +5,7 @@
     android:id="@+id/layout_drawer_principal"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/signupColor"
+    android:background="@drawable/back"
     android:fitsSystemWindows="false"
     tools:openDrawer="start">
 
@@ -13,13 +13,12 @@
     <include layout="@layout/toolbar" />
 
 
-
-        <androidx.recyclerview.widget.RecyclerView
-            android:id="@+id/rview"
-            android:layout_marginTop="110dp"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:scrollbars="vertical" />
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="110dp"
+        android:scrollbars="vertical" />
 
     <com.google.android.material.navigation.NavigationView
         android:id="@+id/navigation_principal"

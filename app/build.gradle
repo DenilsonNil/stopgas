@@ -21,7 +21,10 @@ android {
         }
     }
 
+
 }
+
+
 
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
@@ -30,7 +33,9 @@ dependencies {
 
     implementation 'com.google.firebase:firebase-core:17.2.3'
     implementation 'com.google.firebase:firebase-analytics:17.2.3'
-    implementation 'com.google.firebase:firebase-auth:19.2.0'
+    implementation 'com.google.firebase:firebase-auth:19.3.0'
+    implementation 'com.google.firebase:firebase-database:19.2.1'
+
 
     implementation 'com.synnapps:carouselview:0.1.4'
     implementation 'androidx.appcompat:appcompat:1.1.0'
@@ -45,5 +50,16 @@ dependencies {
     annotationProcessor 'com.github.bumptech.glide:compiler:4.4.0'
 
     implementation 'de.hdodenhof:circleimageview:2.2.0'
+    implementation 'com.redmadrobot:input-mask-android:6.0.0'
+
+    //Retrofit
+    implementation 'com.squareup.retrofit2:retrofit:2.5.0'
+
+    //GSon Parsing
+    implementation 'com.google.code.gson:gson:2.8.5'
+    implementation 'com.squareup.retrofit2:converter-gson:2.5.0'
+
+    api 'com.github.rtoshiro.mflibrary:mflibrary:1.0.0'
+
 }
 apply plugin: 'com.google.gms.google-services'

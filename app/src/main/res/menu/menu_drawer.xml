@@ -22,6 +22,22 @@
             android:icon="@drawable/ic_contato" />
 
         <item
+            android:title="Meus Pedidos"
+            android:id="@+id/opt_menu_meus_pedidos"
+            android:icon="@drawable/ic_check" />
+
+
+        <item
+            android:title="Alterar meu Endereço"
+            android:id="@+id/opt_menu_aterar_endereco"
+            android:icon="@drawable/ic_altera" />
+
+        <item
+            android:title="Comprar com um clique"
+            android:id="@+id/opt_comprar_clique"
+            android:icon="@drawable/ic_touch" />
+
+        <item
             android:title="Sair"
             android:id="@+id/opt_menu_sair"
             android:icon="@drawable/ic_exit" />

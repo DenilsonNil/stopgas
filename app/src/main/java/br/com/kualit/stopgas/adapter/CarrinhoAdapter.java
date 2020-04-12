@@ -1,6 +1,5 @@
-package br.com.kualit.stopgas;
+package br.com.kualit.stopgas.adapter;
 
-import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -13,8 +12,10 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.RecyclerView;
 
 import java.text.NumberFormat;
-import java.util.Iterator;
-import java.util.List;
+
+import br.com.kualit.stopgas.R;
+import br.com.kualit.stopgas.model.Carrinho;
+import br.com.kualit.stopgas.model.Produto;
 
 public class CarrinhoAdapter extends RecyclerView.Adapter<CarrinhoAdapter.CarrinhoHolder> {
 

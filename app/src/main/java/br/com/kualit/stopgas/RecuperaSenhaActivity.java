@@ -15,6 +15,8 @@ import com.google.android.gms.tasks.OnFailureListener;
 import com.google.android.gms.tasks.OnSuccessListener;
 import com.google.firebase.auth.FirebaseAuth;
 
+import br.com.kualit.stopgas.util.Util;
+
 public class RecuperaSenhaActivity extends AppCompatActivity implements View.OnClickListener {
 
 

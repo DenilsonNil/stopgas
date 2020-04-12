@@ -1,4 +1,4 @@
-package br.com.kualit.stopgas;
+package br.com.kualit.stopgas.dialog;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -8,11 +8,13 @@ import android.view.ViewGroup;
 import androidx.annotation.Nullable;
 import androidx.fragment.app.DialogFragment;
 
+import br.com.kualit.stopgas.R;
 
-public class DialogContato extends DialogFragment {
+
+public class DialogAddress extends DialogFragment {
 
 
-    public DialogContato(){
+    public DialogAddress(){
     }
 
 
@@ -30,7 +32,7 @@ public class DialogContato extends DialogFragment {
          super.onCreateView(inflater, container, savedInstanceState);
 
 
-        View view  = inflater.inflate(R.layout.layout_dialog_contatos, container);
+        View view  = inflater.inflate(R.layout.dialog_address, container);
 
         setRetainInstance(true);
 

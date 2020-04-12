@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    android:orientation="vertical"
+    tools:context=".CarrinhoActivity">
+
+    <include layout="@layout/toolbar_carrinho" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rview_pedidos"
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="15dp"
+        android:layout_marginTop="25dp" />
+
+
+</LinearLayout>

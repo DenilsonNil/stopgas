@@ -1,6 +1,5 @@
-package br.com.kualit.stopgas;
+package br.com.kualit.stopgas.adapter;
 
-import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -12,8 +11,10 @@ import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
 import java.text.NumberFormat;
-import java.util.Currency;
 import java.util.List;
+
+import br.com.kualit.stopgas.R;
+import br.com.kualit.stopgas.model.Produto;
 
 public class ProductAdapter extends RecyclerView.Adapter<ProductAdapter.ProductHolder> {
     private List<Produto> produtos;

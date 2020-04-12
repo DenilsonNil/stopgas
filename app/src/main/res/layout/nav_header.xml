@@ -12,6 +12,16 @@
         android:layout_height="wrap_content"
         android:text="Stop Gás APP - Seja Bem vindo!"
         android:textColor="@color/white"
+        android:textSize="18dp"/>
+
+    <TextView
+        android:id="@+id/mail_nav"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textColor="@color/white"
+        android:textStyle="bold"
         android:textSize="16dp"/>
 
 </LinearLayout>

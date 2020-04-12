@@ -26,4 +26,24 @@
     <string name="pressione">Pressione aqui e saiba mais</string>
     <string name="text_address">Rua ZZZZZZZ ZZZZZZ ZZZ, 127A\nBairro: Coimbra, Marília / SP\nCEP: 00.000-011</string>
     <string name="carrinho">Carrinho</string>
+    <string name="ob_header1">BEM VINDO AO STOP GÁS APP</string>
+    <string name="ob_header2">O FUTURO É AGORA</string>
+    <string name="ob_header3">PRONTO PARA COMEÇAR?</string>
+
+    <string name="ob_get_started">PRONTO!</string>
+
+    <string name="ob_desc1">Seu novo jeito de comprar água e gás em Marília</string>
+    <string name="ob_desc2">Esqueça o jeito tradicional de pedir gás e água, agora você pode pedir pelo nosso app. É prático e rápido</string>
+    <string name="ob_desc3">Espero que goste e aproveite a experiência</string>
+    <string name="typeYourCellNumber">Seu telefone</string>
+    <string name="typeYourAddress">Seu endereço</string>
+    <string name="complete_yourAddress">Complete seu cadastro</string>
+    <string name="typeYourName">Seu nome</string>
+    <string name="city">Cidade</string>
+    <string name="alterar_meus_dados">Alterar meus dados</string>
+    <string name="finalizar">Finalizar</string>
+    <string name="valorTotal">Valor Total: R$ 20.00</string>
+    <string name="seu_cep">Seu CEP</string>
+    <string name="proximo">Próximo</string>
+    <string name="house_number">Número da residência</string>
 </resources>

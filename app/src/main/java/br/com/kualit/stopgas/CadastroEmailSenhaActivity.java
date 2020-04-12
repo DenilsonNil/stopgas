@@ -16,6 +16,8 @@ import com.google.android.material.textfield.TextInputLayout;
 import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
 
+import br.com.kualit.stopgas.util.Util;
+
 public class CadastroEmailSenhaActivity extends AppCompatActivity implements View.OnClickListener {
 
     private AppCompatButton botaoCadastrar;
@@ -34,7 +36,6 @@ public class CadastroEmailSenhaActivity extends AppCompatActivity implements Vie
         campoRepetirSenha = (AppCompatEditText) findViewById(R.id.cadRepetir);
 
 
-
         botaoCadastrar = (AppCompatButton) findViewById(R.id.btn_cadastrar_proximo);
 
         botaoCadastrar.setOnClickListener(this);
@@ -51,34 +52,27 @@ public class CadastroEmailSenhaActivity extends AppCompatActivity implements Vie
         String senha = campoSenha.getText().toString();
         String repeteSenha = campoRepetirSenha.getText().toString();
 
-        if(email.trim().equals("")
-                ||email.isEmpty()||
+        if (email.trim().equals("")
+                || email.isEmpty() ||
                 senha.trim().equals("")
-                ||senha.isEmpty()||
+                || senha.isEmpty() ||
                 repeteSenha.trim().equals("")
-                ||repeteSenha.isEmpty()){
+                || repeteSenha.isEmpty()) {
 
             Toast.makeText(this, "Preencha todos os campos", Toast.LENGTH_LONG).show();
-        }else if(!senha.equals(repeteSenha)){
+        } else if (!senha.equals(repeteSenha)) {
             Toast.makeText(this, "As senhas tem que ser iguais", Toast.LENGTH_LONG).show();
-        }else{
-                criarUsuario(email, senha);
+        } else {
+            criarUsuario(email, senha);
         }
 
 
     }
 
 
-
-
-
-
-
-
-
     private void criarUsuario(String email, String senha) {
 
-       Util.iniciarDialog(this, "");
+        Util.iniciarDialog(this, "");
 
 
         auth.createUserWithEmailAndPassword(email, senha).addOnCompleteListener(this, new OnCompleteListener<AuthResult>() {
